@@ -1,10 +1,10 @@
-
 import pandas as pd
 
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 
+#Data
 FEATURES = ["StudyHours", "Attendance", "PreviousMarks"]
 TARGET = "FinalMarks"
 
